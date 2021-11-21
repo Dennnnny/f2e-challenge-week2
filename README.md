@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# f2e 前端精神時光屋 
+### Week2 自行車道地圖資訊整合網 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+第二週又要趕在壓線前上傳了
 
-## Available Scripts
+這次的設計來自 [Zoe Kang]("https://www.figma.com/file/zmcW9WenYEJubgYIY4Usqo/Week2---%E8%87%AA%E8%A1%8C%E8%BB%8A%E9%81%93%E5%9C%B0%E5%9C%96%E8%B3%87%E8%A8%8A%E6%95%B4%E5%90%88%E7%B6%B2")
 
-In the project directory, you can run:
+這次還是使用了react做開發
+搭配的新沒接過的地圖功能
+在看了教學影片後才有點頭緒
+然後...還是做得很趕ＸＤ
 
-### `npm start`
+目前完成的部分：
+- 手機版畫面
+- 點擊附近定位 尋找ubike車位
+- 自行車道的搜尋
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+未完成：
+- 網頁版畫面
+- 美食景點部分
+- 右上角看起來是要接天氣api ＸＤ
+- 自行車道的起點跟終點的map-marker還沒有做
+- 沒有把input的輸入文字功能做進去，現在在input裡打字也不會得到什麼
+- 自行車路線中的選擇城市這個部分 沒有照著設計做ＱＱ 因為有點來不及惹
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+-----
 
-### `npm test`
+期許有朝一日能夠把未完成的東西補起來ＸＤ
+然後 ... 把現在這堆看起來噁心的code給修正Ｑ＿Ｑ
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

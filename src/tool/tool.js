@@ -1,5 +1,5 @@
 import jsSHA from "jssha"
-
+import { addIndex, map } from "ramda"
 export function GetAuthorizationHeader() {
   const AppID = process.env.REACT_APP_APP_ID || ""
   const AppKey = process.env.REACT_APP_APP_KEY || ""
@@ -13,3 +13,5 @@ export function GetAuthorizationHeader() {
 
   return { 'Authorization': Authorization, 'X-Date': GMTString /*,'Accept-Encoding': 'gzip'*/}; //如果要將js運行在伺服器，可額外加入 'Accept-Encoding': 'gzip'，要求壓縮以減少網路傳輸資料量
 }
+
+export const mapIndexed = addIndex(map); 
