@@ -567,7 +567,7 @@ function App() {
   }
 
   function drawStation(list) {
-    return list.map(item => {
+    return list.forEach(item => {
         L.marker([item.StationPosition.PositionLat, item.StationPosition.PositionLon],{
           icon: L.divIcon({
             html: `<div style="border-color:${ item.AvailableRentBikes === 0 ? "#747578" : "#F25C54"};border-width:12px;border-style:solid;" class="pin">
@@ -613,7 +613,7 @@ function App() {
         
         let bikeStationData = []
         availbleData.map((availableItem) => 
-          stationData.filter(item => {
+          stationData.forEach(item => {
             if(availableItem.StationUID === item.StationUID){
 
               bikeStationData.push({
